@@ -1,0 +1,6 @@
+pyaudio
+speechrecognition
+pydub
+numpy
+matplotlib
+playsound
