@@ -17,5 +17,6 @@ A lightweight desktop application that captures your voice, converts it to text 
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/yourusername/voice-to-text-app.git
+git clone https://github.com/sathishidp/voice-to-text-app.git
 cd voice-to-text-app
+
