@@ -12,11 +12,25 @@ A lightweight desktop application that captures your voice, converts it to text 
 - 🔊 Audio playback of your recordings
 - 📦 One-click `.exe` build using PyInstaller
 
-## 🔧 Setup
+## Setup
+
+```bash
+pip install -r requirements.txt
+python main.py
+```
+
+## Build `.exe`
+
+```bash
+pyinstaller --noconfirm --onefile --windowed --icon=icon.ico main.py
+```
+
+Ensure `ffmpeg.exe` is in the same folder.
 
 ### 1. Clone the repo
 
 ```bash
 git clone https://github.com/sathishidp/voice-to-text-app.git
 cd voice-to-text-app
+
 
